@@ -1,0 +1,60 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    /* grid-template-rows: repeat(3, 30%); */
+
+
+}
+
+.grid-item {
+    color: white;
+    height: 400px;
+    background-color: rgb(23, 8, 2);
+
+    
+}
+.LastFooter-h1{
+    /* background-color: aquamarine; */
+    font-weight: 500;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.LastFooter-p{
+    font-size: 15px;
+    font-weight: 500;
+}
+.iconsItems{
+   background-color: aliceblue;
+   height: 40px;
+   width: 40px;
+   padding: 10px 10px;
+   border-radius: 50%;
+   margin-top: 100px;
+}
+.iconsItems:hover{
+    background-color: rgb(20, 20, 19);
+}
+.gridItems{
+    /* background-color: aqua; */
+   line-height: 40px;
+}
+.gridItems-1-h2{
+    font-size: 25px;
+    margin-bottom: 20px;
+    /* background-color: aqua; */
+    letter-spacing: 4px;
+}
+.gridItems-1-h1{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+input{
+    /* background-color: antiquewhite; */
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+   
+}
+

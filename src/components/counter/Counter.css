@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+*{
+    font-family: Marcellus, serif;
+}
+.counter{
+    background-color: rgb(23, 8, 2);
+
+}
+.h1{
+    color: rgb(140, 114, 88);
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    padding-top: 70px;
+    letter-spacing: 5px;
+}
+.h2{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+.h3{
+    font-weight: 400;
+   
+}
+
+.App {
+    
+    display: flex;
+    justify-content: center;
+
+    font-family: Arial, sans-serif;
+    color: #5b4b4b; /* Light text color */
+  
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 200px;
+    text-align: center;
+    /* background-color: aqua; */
+    
+  
+  
+  }
+  
+  .box {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: left;
+
+
+  }
+  
+  .label {
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: left;
+    color: aliceblue;
+    letter-spacing: 5px;
+    font-weight: 300;
+  }
+  .CounterButton{
+   background-color: burlywood;
+   color: black;
+  }
+

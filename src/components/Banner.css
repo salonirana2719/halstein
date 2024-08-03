@@ -1,0 +1,65 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap'); */
+/* *{
+    font-family: Marcellus, serif;
+} */
+
+.BannerItems{
+  
+    position: relative;
+}
+.BannerItem1{
+    /* background-color: blue; */
+    position: absolute;
+  bottom: 200px;
+    left: 17%;
+    font-size: 30px;
+    font-weight: 500;
+    color: aliceblue;
+
+/* letter-spacing: 10px; */
+
+
+}
+.BannerItems2{
+    background-color: aqua;
+    position: relative;
+}
+.BannerItem5{
+    position: absolute;
+    bottom: 130px;
+    left: 17%;
+    font-size: 40px;
+    font-weight: 600;
+    color: aliceblue;
+ 
+   letter-spacing: 5px;
+}
+.BannerButton{
+    position: relative;
+}
+.Button {
+    position: absolute;
+    bottom: 60px;
+    left: 17%;
+    color: aliceblue;
+    font-family: montserrat;
+   letter-spacing: 4px;
+   font-weight: 500;
+   font-size: 20px;
+   /* background-color: aliceblue; */
+   border: 1px solid white;
+}
+@media  only screen and (max-width:600px) {
+    .BannerItem1{/* background-color: blue; */
+        font-size: 15px;
+    }
+    .BannerItem5{
+       
+        font-size: 20px;
+       
+       }
+       .Button {
+       font-size: 12px;
+    }
+
+}

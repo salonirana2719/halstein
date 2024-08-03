@@ -1,0 +1,29 @@
+.BusinessServiceItems{
+   /* background-color: aquamarine; */
+   font-size: 20px;
+   padding: 40px 60px;
+   position: relative;
+   /* background-color: antiquewhite; */
+
+}
+.Boxh4{
+    font-size: 100px;
+    opacity: 0.2;
+
+}
+.Boxh2{
+    font-size: 30px;
+    position: absolute;
+    bottom: 90px;
+    text-align: left;
+}
+
+.businessService2{
+    position: relative;
+}
+.Boxp{
+    /* background-color: antiquewhite; */
+    position: absolute;
+    bottom: 15px;
+    font-size: 15px;
+}
