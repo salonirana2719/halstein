@@ -4,7 +4,7 @@ import NavImage from '../image/logo11.jpg'
 
 const navigation = [
   
-  { name: 'Home', href: '/', current: false },
+  { name: 'Homepage', href: '/', current: false },
   { name: 'About', href: '/about', current: false },
   { name: 'Services', href: '', current: false },
   { name: 'Contact us', href: '#', current: false },
