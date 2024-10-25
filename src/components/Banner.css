@@ -3,63 +3,78 @@
     font-family: Marcellus, serif;
 } */
 
-.BannerItems{
-  
+.BannerItems {
     position: relative;
 }
-.BannerItem1{
-    /* background-color: blue; */
+
+.BannerItem1 {
     position: absolute;
-  bottom: 200px;
+    bottom: 200px;
     left: 17%;
     font-size: 30px;
     font-weight: 500;
     color: aliceblue;
-
-/* letter-spacing: 10px; */
-
-
 }
-.BannerItems2{
-    background-color: aqua;
+
+.BannerItems2 {
     position: relative;
 }
-.BannerItem5{
+
+.BannerItem5 {
     position: absolute;
     bottom: 130px;
     left: 17%;
     font-size: 40px;
     font-weight: 600;
     color: aliceblue;
- 
-   letter-spacing: 5px;
+    letter-spacing: 5px;
 }
-.BannerButton{
+
+.BannerButton {
     position: relative;
 }
+
 .Button {
     position: absolute;
     bottom: 60px;
     left: 17%;
     color: aliceblue;
     font-family: montserrat;
-   letter-spacing: 4px;
-   font-weight: 500;
-   font-size: 20px;
-   /* background-color: aliceblue; */
-   border: 1px solid white;
+    letter-spacing: 4px;
+    font-weight: 500;
+    font-size: 20px;
+    border: 1px solid white;
 }
-@media  only screen and (max-width:600px) {
-    .BannerItem1{/* background-color: blue; */
-        font-size: 15px;
-    }
-    .BannerItem5{
-       
-        font-size: 20px;
-       
-       }
-       .Button {
-       font-size: 12px;
-    }
 
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    .BannerItem1, .BannerItem5, .Button {
+        left: 10%;
+        font-size: 80%;
+    }
+    .BannerItem1 {
+        bottom: 150px;
+    }
+    .BannerItem5 {
+        bottom: 100px;
+    }
+    .Button {
+        bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .BannerItem1, .BannerItem5, .Button {
+        left: 5%;
+        font-size: 70%;
+    }
+    .BannerItem1 {
+        bottom: 100px;
+    }
+    .BannerItem5 {
+        bottom: 70px;
+    }
+    .Button {
+        bottom: 40px;
+    }
 }

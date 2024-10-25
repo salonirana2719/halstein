@@ -7,7 +7,7 @@
 
 }
 .h1{
-    color: rgb(140, 114, 88);
+    /* color: rgb(140, 114, 88); */
     font-size: 14px;
     margin-bottom: 20px;
     font-weight: 600;
@@ -62,7 +62,7 @@
     font-weight: 300;
   }
   .CounterButton{
-   background-color: burlywood;
+   /* background-color: burlywood; */
    color: black;
   }
 

@@ -1,23 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
-    font-family: "montserrat", sans-serif;
+
+* {
+    font-family: 'Montserrat', sans-serif;
 }
 
-
-.Text{
-height: 100%;
-width: 100%;
+.Text {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Aligns items to the left */
+    padding: 5% 10%; /* Responsive padding */
 }
-.Text-h1{
-    font-size: 40px;
+
+.Text-h1 {
+    font-size: 2.5rem; /* 40px */
     font-weight: 500;
-    margin-bottom: 30px;
-   
-    
- }
-  span{
-        color: rgba(181, 117, 23, 0.952);
-   }
-   .Text-h2{
+    margin-bottom: 2rem; /* 30px */
+    text-align: left; /* Left-align the heading */
+}
+
+span {
     color: rgba(181, 117, 23, 0.952);
-   }
+}
+
+.Text-h2 {
+    font-size: 1.5rem; /* Set base size for subheading */
+    color: rgba(181, 117, 23, 0.952);
+    text-align: left; /* Left-align the subheading */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .Text-h1 {
+        font-size: 2rem; /* Adjust font size for tablets */
+        margin-bottom: 1.5rem; /* Adjust margin for tablets */
+    }
+    
+    .Text-h2 {
+        font-size: 1.25rem; /* Adjust font size for tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    .Text-h1 {
+        font-size: 1.5rem; /* Adjust font size for mobile */
+        margin-bottom: 1rem; /* Adjust margin for mobile */
+    }
+
+    .Text-h2 {
+        font-size: 1rem; /* Adjust font size for mobile */
+    }
+
+    .Text {
+        padding: 10%; /* More padding for mobile */
+    }
+}
